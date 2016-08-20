@@ -1,0 +1,26 @@
+Grid of music metadata for quick and simple tag and playlist editing.
+
+xx Use MPD for database.
+    Alternate backend: filesystem. Read a folder.
+
+Rows: single file.
+Columns: tags. Choose from presets, and define arbitrary.
+    Use regexp, combine tags, how to deal with ambiguity?
+
+Sort any column. Sort preserves order of equivalent rows.
+
+Collapse equivalent rows. Lightweight margin display of tree structure.
+
+Filter. On anything, or on specified fields.
+    Full regexp and truth function support.
+
+Select/deselect -- both replace & append.
+
+Replace/append active col on all rows.
+Undo.
+
+When to write to file rather than db? Defer to mpd?
+
+Use haskell & gtk / qtquick
+    Network.MPD
+    Graphics.UI.Gtk (gtk2hs) or Graphics.QML (hsqml)
