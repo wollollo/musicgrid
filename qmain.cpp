@@ -1,10 +1,10 @@
-#include <qt/QtWidgets/QApplication>
-#include <qt/QtCore/QStringList>
-#include <qt/QtCore/QStringListModel>
-#include <qt/QtCore/QAbstractItemModel>
-#include <qt/QtCore/QAbstractTableModel>
-#include <qt/QtWidgets/QTreeView>
-#include <qt/QtWidgets/QTableView>
+#include <QApplication>
+#include <QStringList>
+#include <QStringListModel>
+#include <QAbstractItemModel>
+#include <QAbstractTableModel>
+#include <QTreeView>
+#include <QTableView>
 
 #include "sketches.h"
 #include "tracklistmodel.h"
