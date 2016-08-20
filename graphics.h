@@ -1,7 +1,7 @@
 #ifndef MUSICGRID_GRAPHICS_H
 #define MUSICGRID_GRAPHICS_H
 
-#include <qt/QtWidgets/QWidget>
+#include <QWidget>
 
 namespace MusicGrid {
   class MainWindow : public QWidget {
