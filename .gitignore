@@ -1,3 +1,11 @@
+# Binaries
+
+musicgrid2
+runner
+baby_driver
+misc/simple_boost
+misc/simple_taglib
+
 # C++ objects and libs
 
 *.slo

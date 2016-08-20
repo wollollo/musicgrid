@@ -16,12 +16,12 @@ HEADERS += graphics.h \
            updateQueue.h \
            updateQueue.tests.h \
            tracklistmodel.h \
-           ../Estd/filesystem.hpp
+           misc/Estd/filesystem.hpp
 SOURCES += graphics.cpp \
            sketches.cpp \
            track.cpp \
            qmain.cpp \
-           ../Estd/filesystem.cpp
+           misc/Estd/filesystem.cpp
 
 #SOURCES += baby_driver.cpp \
            #cute_baby_driver.cpp \

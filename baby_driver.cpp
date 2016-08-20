@@ -1,8 +1,8 @@
 #include <iostream>
 #include <thread>
 
-#include "../Estd/algorithm.h"
-#include "../Estd/thread.h"
+#include "misc/Estd/algorithm.h"
+#include "misc/Estd/thread.h"
 
 #include "sketches.h"
 #include "updateQueue.h"
