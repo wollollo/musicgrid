@@ -1,7 +1,7 @@
 #ifndef TRACKLISTMODEL_H
 #define TRACKLISTMODEL_H
 
-#include <qt/QtCore/QAbstractTableModel>
+#include <QAbstractTableModel>
 
 #include "sketches.h"
 
