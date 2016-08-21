@@ -34,6 +34,7 @@ namespace MusicGrid {
           throw runtime_error{"non-directory baseDir"};
       }
 
+      //walk is in misc/Estd/filesystem.cpp
       for (const path& p : walk(path{baseDir})) {
           if (is_regular_file(p))
               trackList_.emplace_back(p); //TODO refactor to send this into walk?
