@@ -7,6 +7,7 @@
 #include <taglib/tstring.h>
 #include <taglib/tpropertymap.h>
 
+//Represents a single music track
 namespace MusicGrid {
   class Track {
     public:
